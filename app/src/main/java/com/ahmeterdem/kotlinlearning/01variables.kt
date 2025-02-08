@@ -37,6 +37,19 @@ class MainActivity1 : AppCompatActivity() {
         println(pi*2)
         val myFloat =3.14f // bu şekilde sonunda 'f' eklersek float olarak tanımlamış oluruz.
 
+        // Boolean // true / false değerini alan variable
+        var myBoolean : Boolean = true
+
+        // Conversion
+
+        var num = 5
+        var num_long=  num.toLong() // bu sekilde methodları kullanarak tur donusumu yaoabiliriz.
+
+        println(num_long)
+
+        var input = "10"
+        var inputInteger = input.toInt() // Bu sekilde string to int donusumu yapabiliriz.
+        println(inputInteger*2)
 
     }
 }
